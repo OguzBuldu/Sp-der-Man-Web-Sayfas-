@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-image: url(bg1.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    font-family: "Bebas Neue", sans-serif;
+    
+}
+
+/* Header */
+
+.container .logo{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 20px;;
+}
+.container .logo a{
+    color: red;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.container .nav-menu{
+    display: inline-block;
+    margin-left: 550px;
+    margin-top: 20px;;
+}
+.container .nav-menu ul{
+    list-style: none;
+}
+.container .nav-menu ul li{
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.container .nav-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+}
+
+
+.dikey-menu ul{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.dikey-menu ul li{
+    color: red;
+    font-size: 35px;
+    list-style: none;
+}
+.dikey-menu ul li a{
+    color: red;
+    text-decoration: none;
+    font-size: 50px;
+}
+/* Header */
+/* Section */
+section .baslık{
+    color: red;
+    font-size: 50px;
+    margin-left: 540px;
+    margin-top: -150px;
+    /* filter: blur(1px); */
+    opacity: 0.75;
+}
+section .buttons{
+    text-align: center;
+}
+section .buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: red;
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+/* Section */
